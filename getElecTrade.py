@@ -20,7 +20,7 @@ driver.get(url)
 # レンダリングのための時間
 time.sleep(2)
 
-# レンダリング結果をPhantomJSから取得
+# レンダリング結果をchromedriverから取得
 html = driver.page_source
 
 # BeautifulSoupでレンダリング済みのhtmlを扱う
